@@ -14,8 +14,8 @@ body:<br/>
       "phoneNumber": "phoneNumber"
     }
     
-200 - returns successfully created advert
-400 - Bad Request - advert will not be created
+200 - returns successfully created advert <br/>
+400 - Bad Request - advert will not be created <br/>
 
 ### Get advert 
 **_GET api/advert/{id}_**<br/>
@@ -23,8 +23,8 @@ body:<br/>
 _Query parameters:_ <br/>
 id - Long id 
 
-200 - returns advert
-400 - Bad Request - there is no such advert
+200 - returns advert<br/>
+400 - Bad Request - there is no such advert<br/>
 
 ### Remove advert 
 **_DELETE api/advert/{id}_**<br/>
@@ -32,7 +32,7 @@ id - Long id
 _Query parameters:_ <br/>
 id - Long id <br/>
 
-204 - returns empty content after successfull deletion 
+204 - returns empty content after successfull deletion <br/>
 
 ### Get adverts list for user
 **_GET api/advert/user/{id}_**
@@ -54,5 +54,5 @@ body:<br/>
         "category": "category"
     }
     
-200 - returns successfully created user
-400 - Bad Request - user will not be created
+200 - returns successfully created user<br/>
+400 - Bad Request - user will not be created<br/>
