@@ -15,7 +15,7 @@ body:<br/>
     }
     
 200 - returns successfully created advert <br/>
-400 - bad Request - advert will not be created <br/>
+400 - bad request - advert will not be created <br/>
 
 ### Get advert 
 **_GET api/advert/{id}_**<br/>
@@ -24,7 +24,7 @@ _Query parameters:_ <br/>
 id - Long id 
 
 200 - returns advert<br/>
-400 - bad Request - there is no such advert<br/>
+400 - bad request - there is no such advert<br/>
 
 ### Remove advert 
 **_DELETE api/advert/{id}_**<br/>
@@ -55,4 +55,4 @@ body:<br/>
     }
     
 200 - returns successfully created user<br/>
-400 - bad Request - user will not be created<br/>
+400 - bad request - user will not be created<br/>
